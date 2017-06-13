@@ -57,8 +57,6 @@ cat("==   Welcome to the fun zone!   ==\n")
 cat("==                              ==\n")
 cat("==================================\n\n")
 # You can never have enough positive encouragement in R.
-
-
 }
 
 # You will only see the next line if you pay attention :-)
