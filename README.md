@@ -35,3 +35,7 @@ snippet stup
 ```
 
   Now if you type "stup" at the beginning of a file, it will paste the above code, you can add the title of your script file, and when you press your tab key the cursor will jump to the library command, and you can for instance add tidyverse, or ggplot, or whatever you normally use. The snippet will automatically add the date, of course you can/should change the author :-)
+  
+## Problems with my code, other options?
+
+Just let me know, because there are probably edge cases I did not think about, and more elegant solutions that I will not find on my own.
