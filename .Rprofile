@@ -23,7 +23,7 @@ options(width = 90, digits = 4)
 # Then
 # include below code in your .RProfile file
 
-rfiles = list.files(pattern = "\\.R", full.names = T, recursive = T,
+rfiles = list.files(pattern = "\\.R$", full.names = T, recursive = T,
                     include.dirs = FALSE, ignore.case = TRUE)
 # Get all the .R or .r files from the working directory, recursively
 # so also in subfolders within your R folder structure.
