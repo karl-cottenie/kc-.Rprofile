@@ -25,9 +25,10 @@ options(width = 90, digits = 4)
 
 rfiles = list.files(pattern = "\\.R$", full.names = T, recursive = F,
                     include.dirs = FALSE, ignore.case = TRUE)
-# Get all the .R or .r files from the working directory, recursively
-# so also in subfolders within your R folder structure.
-# If you want to use other scripts nested in your R folder, switch to "recursive = T"
+# Get all the .R or .r files from the working directory. 
+# If you want to use other scripts nested in your R folder, recursively,
+# switch to "recursive = T", so also in subfolders within your R folder structure.
+
 
 rfiles = lapply(rfiles, readLines, n = 30)
 # read the first 30 lines, you can adjust this to make it bigger if necessary
