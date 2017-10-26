@@ -11,7 +11,7 @@ Copy this profile file either in your home directory or in each working director
 
 I created this profile file to ensure that it will read all your script files within a folder, and execute them until it finds the line "# Startup ends here". I assume that this will be mainly for loading libraries, so I specified the script to only read the first 30 lines, but you can increase/decrease this for your coding practices. I also made it recursive, so it will read all the script files within the folder structure, but you can change this too.
 
-And I have also added some encouragement, that has the secondary objective that you can see if the .Rprofile code worked correctly.
+And I have also added some encouragement, which has the secondary objective that you can see if the .Rprofile code worked correctly.
 
 ## Snippet usage
 
