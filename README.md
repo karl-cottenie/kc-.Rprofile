@@ -2,7 +2,7 @@
 
 ## Problem in R: how to create a .Rprofile that does not hide important information ...
 
-... but still is specific to each R script file. For instance, a lot of R users in our group load their packages at the top of their R scripts. Often, these packages are the same, but sometimes they add a different one for a specific type of analysis. I use the tidyverse all the time, and in some analyses vegan. A school of thought would be to automatically add these package to the start up using a .Rprofile file. Others would argue that this makes the code less reproducible, since some essential pieces of information are hidden from the R script file.
+... but still is specific to each R script file. For instance, a lot of R users in our group load their packages at the top of their R scripts. Often, these packages are the same, but sometimes they add a different one for a specific type of analysis. I use the tidyverse all the time, and in some analyses vegan. A school of thought would be to automatically add these packages to the start up using a .Rprofile file. Others would argue that this makes the code less reproducible, since some essential pieces of information are hidden from the R script file.
 
 But what if you could have both? All the boilerplate stuff such as loading packages at the top of each R script file, but execute them automatically when you open that script file? I think I have found a solution to that mythical beast. I googled for it, but could not find anything similar, so that is why I provide my code here. Hopefully somebody else will find this useful, or point me to other, more elegant, solutions that I can incorporate in  my own code.
 
