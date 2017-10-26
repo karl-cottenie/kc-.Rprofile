@@ -41,3 +41,7 @@ If you want to start using this with your existing script files, just add a "# S
 ## Problems with my code, other options?
 
 Just let me know, because there are probably edge cases I did not think about, and more elegant solutions that I will not find on my own.
+
+## Future work
+
+I want to see if I can automatically add a Date stamp to the script file name everytime I close it, so that I know that I have the latest version of multiple scripts.
