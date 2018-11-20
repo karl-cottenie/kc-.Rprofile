@@ -28,10 +28,22 @@ snippet stup
 	##
 	##############################
 	
-	library(${2:package})
-	# Add as much code here that you want to execute each time your script file is loaded.
+	library(tidyverse)
+	library(viridis)
+	# + scale_color/fill_viridis(discrete = T/F)
+	theme_set(theme_light())
 	
 	# Startup ends here
+	
+	## Comment codes ------
+	# Coding explanations (#, often after the code, but not exclusively)
+	# Code organization (## XXXXX -----)
+	# Justification for a section of code ## XXX
+	# Dead end analyses because it did not work, or not pursuing this line of inquiry (but leave it in as a trace of it, to potentially solve this issue, or avoid making the same mistake in the future # (>_<) 
+	# Solutions/results/interpretations (#==> XXX)
+	# Reference to manuscript pieces, figures, results, tables, ... # (*_*)
+	# TODO items #TODO
+	# names for data frames (dfName), for lists (lsName), for vectors (vcName) (Thanks Jacqueline May)
 ```
 
   Now if you type "stup" at the beginning of a file, it will paste the above code, you can add the title of your script file, and when you press your tab key the cursor will jump to the library command, and you can for instance add tidyverse, or ggplot, or whatever you normally use. The snippet will automatically add the date, of course you can/should change the author :-)
