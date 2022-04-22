@@ -19,15 +19,16 @@ This works nicely with the new snippet I created. In RStudio > Preferences > cod
 
 ```
 snippet stup
-	##############################
+	##***************************
 	## ${1:title}
 	##
 	## Karl Cottenie
 	##
 	`r paste("##", Sys.Date())`
 	##
-	##############################
+	##***************************
 	
+	## _ Packages used -------
 	library(tidyverse)
 	library(viridis)
 	# + scale_color/fill_viridis(discrete = T/F)
@@ -35,7 +36,7 @@ snippet stup
 	
 	# Startup ends here
 	
-	## Comment codes ------
+	## _ Comment codes ------
 	# Coding explanations (#, often after the code, but not exclusively)
 	# Code organization (## XXXXX -----)
 	# Justification for a section of code ## XXX
