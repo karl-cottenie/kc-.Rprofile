@@ -45,7 +45,7 @@ snippet stup
 	# Solutions/results/interpretations (#==> XXX)
 	# Reference to manuscript pieces, figures, results, tables, ... # (*_*)
 	# TODO items #TODO
-	# names for data frames (df_name), for lists (ls_name), for vectors (vc_name) (Thanks Jacqueline May)
+	# names for data frames (df_name), lists (ls_name), ... (Thanks Jacqueline May)
 ```
 
   Now if you type "stup" at the beginning of a file, it will paste the above code, you can add the title of your script file, and when you press your tab key the cursor will jump to the library command, and you can for instance add tidyverse, or ggplot, or whatever you normally use. The snippet will automatically add the date, of course you can/should change the author :-)
