@@ -29,6 +29,7 @@ snippet stup
 	##***************************
 	
 	## _ Packages used -------
+	library(stats)
 	library(tidyverse)
 	library(viridis)
 	# + scale_color/fill_viridis(discrete = T/F)
