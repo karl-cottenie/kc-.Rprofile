@@ -7,7 +7,11 @@
 But what if you could have both? All the boilerplate stuff such as loading packages at the top of each R script file, but execute them automatically when you open that script file? I think I have found a solution to that mythical beast. I googled for it, but could not find anything similar, so that is why I provide my code here. Hopefully somebody else will find this useful, or point me to other, more elegant, solutions that I can incorporate in  my own code.
 
 ## How to create a generic but specific profile file that reads the beginning of each R file
-Copy this profile file either in your home directory or in each working directory. A quick google on .Rprofile and your OS will help you out for the advantages/disadvantages of these two approaches. However, because of the generic and specific nature of the profile, it is intented to be used as your system-wide profile. 
+The easiest way to use this .RProfile file is by running the following code in your R console:
+
+usethis::edit_r_profile()
+
+Then copy-paste the .RProfile code, save, and restart R (or RStudio).
 
 I created this profile file to ensure that it will read all your script files within a folder, and execute them until it finds the line "# Startup ends here". I assume that this will be mainly for loading libraries, so I specified the script to only read the first 30 lines, but you can increase/decrease this for your coding practices. I also made it recursive, so it will read all the script files within the folder structure, but you can change this too.
 
